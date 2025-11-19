@@ -71,7 +71,7 @@ cat targets.txt | httpx.mrmonsif.exe -t 50 -tech -security
 
 ## ✨ Author
 
-**Created by [MrMonsif](https://github.com/mrmonsif)**
+**Created by [MrMonsif](https://www.instagram.com/httpx.mrmonsif/)**
 
 ---
 
