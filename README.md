@@ -21,7 +21,7 @@
 ### From Source (Go 1.19+ Required)
 
 ```bash
-git clone https://github.com/yourusername/httpx.mrmonsif.git
+git clone https://github.com/monsifhmouri/httpx.mrmonsif.git
 cd httpx.mrmonsif
 go build -o httpx.mrmonsif.exe main.go
 ```
