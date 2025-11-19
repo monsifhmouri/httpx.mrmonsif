@@ -2,7 +2,7 @@
 # httpx.mrmonsif 🕷️
 
 ![banner](https://img.shields.io/badge/HTTP--SCANNER-Made%20By%20MrMonsif-orange)  
-**Ultimate HTTP Security Scanner with Technology & WAF Detection**
+** HTTP Security Scanner with Technology & WAF Detection**
 
 ## 🔥 Overview
 
