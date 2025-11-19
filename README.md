@@ -87,7 +87,7 @@ cat targets.txt | ./httpx.mrmonsif -t 50 -tech -security
 ---
 
 ## ✨ Author
-
+![My Avatar](./my_avatar.png)
 **Created by [MrMonsif](https://www.instagram.com/httpx.mrmonsif/)**
 
 ---
