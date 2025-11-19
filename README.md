@@ -26,12 +26,6 @@ cd httpx.mrmonsif
 go build -o httpx.mrmonsif.exe main.go
 ```
 
-### Download Binary (Windows Only)
-
-[📥 Click to Download httpx.mrmonsif.exe](https://github.com/yourusername/httpx.mrmonsif/releases/latest)
-
----
-
 ## 🧪 Usage
 
 ```bash
