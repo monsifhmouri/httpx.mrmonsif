@@ -1,8 +1,7 @@
-
 # httpx.mrmonsif 🕷️
 
 ![banner](https://img.shields.io/badge/HTTP--SCANNER-Made%20By%20MrMonsif-orange)  
-** HTTP Security Scanner with Technology & WAF Detection**
+**HTTP Security Scanner with Technology & WAF Detection**
 
 ## 🔥 Overview
 
@@ -23,23 +22,41 @@
 ```bash
 git clone https://github.com/monsifhmouri/httpx.mrmonsif.git
 cd httpx.mrmonsif
+
+# For Windows:
 go build -o httpx.mrmonsif.exe main.go
-```
+
+# For Linux:
+go build -o httpx.mrmonsif main.go
+chmod +x httpx.mrmonsif
+````
+
+---
 
 ## 🧪 Usage
+
+### On Windows
 
 ```bash
 cat targets.txt | httpx.mrmonsif.exe -t 50 -tech -security
 ```
 
+### On Linux
+
+```bash
+cat targets.txt | ./httpx.mrmonsif -t 50 -tech -security
+# or
+./httpx.mrmonsif -t 50 -tech -security < targets.txt
+```
+
 ### Flags
 
-| Flag       | Description                        |
-|------------|------------------------------------|
-| `-t`       | Threads count (default: 10)        |
-| `-tech`    | Enable technology detection        |
-| `-security`| Enable security header check       |
-| `-v`       | Enable verbose mode (more details) |
+| Flag        | Description                        |
+| ----------- | ---------------------------------- |
+| `-t`        | Threads count (default: 10)        |
+| `-tech`     | Enable technology detection        |
+| `-security` | Enable security header check       |
+| `-v`        | Enable verbose mode (more details) |
 
 ---
 
@@ -74,7 +91,3 @@ cat targets.txt | httpx.mrmonsif.exe -t 50 -tech -security
 **Created by [MrMonsif](https://www.instagram.com/httpx.mrmonsif/)**
 
 ---
-
-## 📜 License
-
-MIT License
