@@ -3,19 +3,19 @@
 ![banner](https://img.shields.io/badge/HTTP--SCANNER-Made%20By%20MrMonsif-orange)  
 **HTTP Security Scanner with Technology & WAF Detection**
 
-## 🔥 Overview
+## Overview
 
 `httpx.mrmonsif` is a fast and advanced HTTP scanner built with Go, focused on red team operations, bug bounty, reconnaissance, and WAF fingerprinting.
 
-- 🚀 Fast concurrent scanning
-- 🧠 Automatic technology detection (`X-Powered-By`, `Server`, etc.)
-- 🛡️ WAF detection (Cloudflare, Akamai, etc.)
-- 🎨 Colored output with filters
-- 💥 Detects suspicious behaviors (e.g., rate limits, blocked URLs)
+-  Fast concurrent scanning
+-  Automatic technology detection (`X-Powered-By`, `Server`, etc.)
+-  WAF detection (Cloudflare, Akamai, etc.)
+-  Colored output with filters
+-  Detects suspicious behaviors (e.g., rate limits, blocked URLs)
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### From Source (Go 1.19+ Required)
 
@@ -33,7 +33,7 @@ chmod +x httpx.mrmonsif
 
 ---
 
-## 🧪 Usage
+##  Usage
 
 ### On Windows
 
@@ -69,7 +69,7 @@ cat targets.txt | ./httpx.mrmonsif -t 50 -tech -security
 
 ---
 
-## 🛠️ Structure
+##  Structure
 
 ```bash
 ├── core/
@@ -86,7 +86,7 @@ cat targets.txt | ./httpx.mrmonsif -t 50 -tech -security
 
 ---
 
-## ✨ Author
+##  Author
 ![My Avatar](./my_avatar.jpg)
 **Created by [MrMonsif](https://www.instagram.com/httpx.mrmonsif/)**
 
